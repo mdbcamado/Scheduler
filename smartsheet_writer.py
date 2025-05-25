@@ -41,9 +41,9 @@ def overwrite_smartsheet_with_df(df: pd.DataFrame, sheet_id: str, api_token: str
             for col in df.columns:
                 if col in column_map:
                     value = row[col]
-                    # Handle NaN values
-                    if pd.isna(value):
-                        value = None
+                    # Convert NaN/None values to empty string for Smartsheet
+                    if pd.isna(value) or value is None:
+                        value = ""
                     cells.append({
                         'column_id': column_map[col],
                         'value': value
