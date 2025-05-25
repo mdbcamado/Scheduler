@@ -50,8 +50,8 @@ async def run_task(request: Request):
         logger.info(f"Source sheet has {len(df)} rows and {len(df.columns)} columns")
 
         # Step 2: Preprocess the DataFrame (customize as needed)
-        df = df.dropna()
-        logger.info(f"After dropna: {len(df)} rows remaining")
+        #df = df.dropna()
+        #logger.info(f"After dropna: {len(df)} rows remaining")
 
         # Step 3: Overwrite target sheet
         logger.info("Starting to overwrite target sheet...")
