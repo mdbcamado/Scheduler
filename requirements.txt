@@ -39,7 +39,6 @@ distro==1.9.0
 docker==7.1.0
 durationpy==0.9
 executing==2.2.0
-faiss-cpu==1.10.0
 fastapi==0.115.11
 fastjsonschema==2.21.1
 filelock==3.17.0
@@ -133,7 +132,6 @@ opentelemetry-proto==1.31.0
 opentelemetry-sdk==1.31.0
 opentelemetry-semantic-conventions==0.52b0
 opentelemetry-util-http==0.52b0
-orjson==3.10.15
 overrides==7.7.0
 packaging==24.2
 pandas==2.2.3
@@ -183,7 +181,6 @@ scikit-learn==1.6.1
 scipy==1.15.2
 seaborn==0.13.2
 Send2Trash==1.8.3
-sentence-transformers==3.4.1
 setuptools==76.0.0
 shellingham==1.5.4
 six==1.17.0
@@ -200,12 +197,10 @@ tenacity==9.0.0
 terminado==0.18.1
 threadpoolctl==3.5.0
 tinycss2==1.4.0
-tokenizers==0.21.1
 torch==2.6.0
 tornado==6.4.2
 tqdm==4.67.1
 traitlets==5.14.3
-transformers==4.49.0
 typer==0.15.2
 types-python-dateutil==2.9.0.20241206
 typing_extensions==4.12.2
