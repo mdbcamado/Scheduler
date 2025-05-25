@@ -3,7 +3,7 @@
 import smartsheet
 import pandas as pd
 
-def overwrite_smartsheet_with_df(df: pd.DataFrame, sheet_id: int, api_token: str) -> str:
+def overwrite_smartsheet_with_df(df: pd.DataFrame, sheet_id: str, api_token: str) -> str:
     try:
         smartsheet_client = smartsheet.Smartsheet(api_token)
         smartsheet_client.errors_as_exceptions(True)
